@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "css:build": "sass src/spg.scss public/sps.css",
-    "html:build": "pug < css/index.pug > public/index.html"
+    "html:build": "pug < src/index.pug > public/index.html"
   },
   "keywords": [],
   "author": "Cristian <@justotimenet> Alvarez <cristian@justotime.net> (http://justotime.net/)",
