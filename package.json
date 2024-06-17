@@ -1,0 +1,16 @@
+{
+  "name": "single-price-grid",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "sass src/spg-component.scss public/sps.css",
+    "html:build": "pug < css/index.pug > public/index.html"
+  },
+  "keywords": [],
+  "author": "Cristian <@justotimenet> Alvarez <cristian@justotime.net> (http://justotime.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "pug-cli": "1.0.0-alpha6",
+    "sass": "1.77.5"
+  }
+}
