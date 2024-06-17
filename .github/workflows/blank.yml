@@ -15,14 +15,13 @@ jobs:
       - uses: pnpm/action-setup@v4
         with:
           version: 9
-        run_install: |
-            - recursive: true
-              args: [--frozen-lockfile, --strict-peer-dependencies]
-
+        run_install: false
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2
         with:
           node-version: "22.x"
+      - name: Run pnpm install
+        run: pnpm install
       - name: Build SASS
         run: pnpm css:build
       - name: Build HTML
