@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "css:build": "sass src/spg.scss public/sps.css",
+    "css:build": "sass src/spg.scss public/spg.css",
     "html:build": "pug < src/index.pug > public/index.html"
   },
   "keywords": [],
