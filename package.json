@@ -7,7 +7,7 @@
     "html:build": "pug < src/index.pug > public/index.html"
   },
   "keywords": [],
-  "author": "Cristian <@justotimenet> Alvarez <cristian@justotime.net> (http://justotime.net/)",
+  "author": "Cristian <@justotimenet> Alvarez",
   "license": "MIT",
   "dependencies": {
     "pug-cli": "1.0.0-alpha6",
