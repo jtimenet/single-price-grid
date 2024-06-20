@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"sps.css"}
+{"version":3,"sourceRoot":"","sources":["../src/spg.scss"],"names":[],"mappings":"AACQ;AAER;EACI;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA","file":"sps.css"}
